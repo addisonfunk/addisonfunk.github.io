@@ -1,16 +1,14 @@
+/*// bower:scss*/
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+/*// endbower*/
+
 body {
   background: url("http://i.imgur.com/PIFun9n.jpg");
   background-size: 100% auto contain;
   background-color:rgba(0, 0, 0, 0.9);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  // background-size: 256px 256px, cover;
-  // background-attachment: fixed, fixed;
-  // background-position: top left, bottom center;
-  // background-repeat: repeat, no-repeat;
+  background-attachment: fixed;
 }
 
 body.background-image {
@@ -22,8 +20,8 @@ h1 {
   text-align: center;
   color: white;
   font-size: 7em;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -31,7 +29,7 @@ h2 {
   font-size: 1.7em;
   font-family: 'Open Sans Condensed', sans-serif;
   padding-top: 0px;
-  color: black;
+  color: #505050;
 
 }
 
@@ -83,17 +81,52 @@ p {
   transform: rotate(0deg);
 }
 
+.fa-facebook {
+  color: black;
+}
+.fa-twitter {
+  color: black;
+}
+.fa-linkedin {
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
+
+.fa-facebook:hover {
+  color: #00CCFF;
+}
+.fa-twitter:hover {
+  color: #00CCFF;
+}
+.fa-linkedin:hover {
+  color: #00CCFF;
+}
+.fa-instagram:hover {
+  color: #00CCFF;
+}
+
 .footer {
     position: fixed;
-    bottom: 0;
     border: 2px solid rgba(0, 0, 0, 0.6);
-    width: 110%;
+    width: 100%;
     background-color:rgba(0, 0, 0, 0.6);
     font-family: 'Codystar', cursive;
     color: white;
     height: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 424px;
 }
 
+.row {
+  text-align: center;
+}
+
+.social nav {
+  margin-left: -2%;
+}
 .social {
   position: fixed;
   top: 200px;
