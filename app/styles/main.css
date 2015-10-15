@@ -3,13 +3,24 @@
 /*// endbower*/
 
 body {
-  background: url("http://i.imgur.com/PIFun9n.jpg");
+  width: 100% auto;
+/*  height: 1700px;*/
+  background-image: url("http://i.imgur.com/PIFun9n.jpg");
   background-size: 100% auto contain;
   background-color:rgba(0, 0, 0, 0.9);
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
+/*@media only screen and (max-device-width: 730px) {
+  body {
+    background-image: url("http://i.imgur.com/JGmvjQ2m.jpg");
+  }
+}*/
 
 body.background-image {
   color: rgba(0, 0, 0, 0.9);
@@ -119,18 +130,34 @@ p {
 
 .fa-github {
   color: black;
+  background-color: white;
+  opacity: .7;
+  border-radius: 90%;
+  padding: 3px;
 }
 .fa-twitter {
   color: black;
+  background-color: white;
+  opacity: .7;
+  border-radius: 90%;
+  padding: 3px;
 }
 .fa-linkedin {
   color: black;
+  background-color: white;
+  opacity: .7;
+  border-radius: 90%;
+  padding: 3px;
 }
 .fa-instagram {
   color: black;
+  background-color: white;
+  opacity: .7;
+  border-radius: 90%;
+  padding: 3px;
 }
 
-.fa-facebook:hover {
+.fa-github:hover {
   color: #00CCFF;
 }
 .fa-twitter:hover {
