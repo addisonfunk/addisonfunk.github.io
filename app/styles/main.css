@@ -15,6 +15,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  margin: 0 0 50px;
 }
 /*@media only screen and (max-device-width: 730px) {
   body {
@@ -32,7 +33,7 @@ h1 {
   color: white;
   font-size: 7em;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -42,6 +43,12 @@ h2 {
   padding-top: 0px;
   color: #505050;
   margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 a {
@@ -62,7 +69,16 @@ p {
   margin-left: 30px;
 }
 
-
+.col-lg-3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+.col-lg-3 a {
+  margin: 40px;
+}
 
 .col-lg-12 {
   background: black;
@@ -71,20 +87,29 @@ p {
   margin-left: 16%;
   border: solid white 2px;
   color: white;
-  margin-top: 20px;
   position: relative;
   margin: 0 auto;
 }
-.col-lg-12 p {
-  font-family: 'Codystar', cursive;
-  margin: 40px;
+.col-lg-12 #above-about {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 80px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  margin-top: 10px;
 }
-/*.about .about-image {
-  position: absolute;
-  text-align: left;
-  margin-top: 2px;
-
-}*/
+.col-lg-12 #bottom-about {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 80px;
+  margin-top: 0px;
+  font-size: 1.3em;
+  text-align: center;
+}
+.col-lg-12 #pictures {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.4em;
+  margin-bottom: 0px;
+  color: #B6F8F8;
+}
 .col-lg-12 img {
   width: 200px;
   height: 300px;
@@ -96,6 +121,9 @@ p {
 }
 .col-lg-12 img:hover {
   opacity: .4;
+}
+.col-lg-12 p {
+  text-align: left;
 }
 
 .main-menu {
@@ -132,55 +160,46 @@ p {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 90%;
+  border-radius: 100%;
   padding: 3px;
 }
 .fa-twitter {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 90%;
+  border-radius: 100%;
   padding: 3px;
 }
 .fa-linkedin {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 90%;
+  border-radius: 100%;
   padding: 3px;
 }
 .fa-instagram {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 90%;
+  border-radius: 100%;
   padding: 3px;
 }
 
 .fa-github:hover {
-  color: #00CCFF;
+  background-color: #00CCFF;
+  color: white;
 }
 .fa-twitter:hover {
-  color: #00CCFF;
+  background-color: #00CCFF;
+  color: white;
 }
 .fa-linkedin:hover {
-  color: #00CCFF;
+  background-color: #00CCFF;
+  color: white;
 }
 .fa-instagram:hover {
-  color: #00CCFF;
-}
-
-.footer {
-    position: fixed;
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.6);
-    font-family: 'Codystar', cursive;
-    color: white;
-    height: 35px;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-    margin-top: 424px;
+  background-color: #00CCFF;
+  color: white;
 }
 
 .row {
