@@ -44,6 +44,7 @@ h2 {
   color: #505050;
   margin-top: 0px;
   margin-bottom: 5px;
+  text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
 }
 
 html {
@@ -62,6 +63,9 @@ a {
 
 p {
   text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 #foot {
@@ -103,6 +107,9 @@ p {
   margin-top: 0px;
   font-size: 1.3em;
   text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 .col-lg-12 #pictures {
   font-family: 'Shadows Into Light', cursive;
@@ -207,7 +214,7 @@ p {
 }
 
 .social nav {
-  margin-left: -2%;
+  margin-left: -1%;
 }
 .social {
   position: fixed;
