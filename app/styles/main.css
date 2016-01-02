@@ -5,9 +5,9 @@
 body {
   width: 100% auto;
 /*  height: 1700px;*/
-  background-image: url("http://i.imgur.com/PIFun9n.jpg");
+  /*background-image: url("http://i.imgur.com/PIFun9n.jpg");*/
   background-size: 100% auto contain;
-  background-color:rgba(0, 0, 0, 0.9);
+  background-color:rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -27,6 +27,18 @@ body.background-image {
   color: rgba(0, 0, 0, 0.9);
 }
 
+.enter-button:hover a {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+a.enter-button {
+  padding: 15px;
+  color:black;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Megrim', cursive;
   text-align: center;
@@ -36,29 +48,9 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 1.7em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  padding-top: 0px;
-  color: #505050;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
-}
-
 html {
   position: relative;
   min-height: 100%;
-}
-
-a {
-  color: gray;
-  margin: 25px;
-  padding: 10px;
-  // font-family: 'Amatic SC', cursive;
-  font-family: 'Codystar', cursive;
-  font-size: 1.25em;
 }
 
 p {
@@ -68,31 +60,43 @@ p {
   margin-top: 15px;
 }
 
-#foot {
-  margin-right: 20px;
-  margin-left: 30px;
+.button:hover {
+  // background-color: #B6F8F8;
+  color: #B6F8F8;
+  font-size: 2em;
+  font-family: 'Megrim', cursive;
+  border-radius: 60%;
+  padding: 20px;
+  text-decoration: none;
+  transform: rotate(0deg);
 }
 
-.col-lg-3 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
+.button:hover {
+  // background-color: #B6F8F8;
+  color: #B6F8F8;
+  font-size: 2em;
+  font-family: 'Megrim', cursive;
+  border-radius: 60%;
+  padding: 20px;
+  text-decoration: none;
+  transform: rotate(0deg);
 }
-.col-lg-3 a {
+
+.button x {
+  transform: rotate(0deg);
+}
+.col-lg-10 a {
   margin: 40px;
+  border: none;
+  font-size: 1.2em;
 }
 
-.col-lg-12 {
-  background: black;
-  opacity: .8;
-  width: 70%;
-  margin-left: 16%;
-  border: solid white 2px;
-  color: white;
-  position: relative;
-  margin: 0 auto;
+.col-lg-6 h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 80px;
+  margin-bottom: 15px;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .col-lg-12 #above-about {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -133,165 +137,87 @@ p {
   text-align: left;
 }
 
-.main-menu {
-  text-align: center;
+.col-lg-1 .fa {
+  font-size: 1.8em;
 }
-
-.button:hover {
-  // background-color: #B6F8F8;
-  color: #B6F8F8;
-  font-size: 2em;
-  font-family: 'Megrim', cursive;
-  border-radius: 60%;
-  padding: 20px;
-  text-decoration: none;
-  transform: rotate(0deg);
-}
-
-.button:hover {
-  // background-color: #B6F8F8;
-  color: #B6F8F8;
-  font-size: 2em;
-  font-family: 'Megrim', cursive;
-  border-radius: 60%;
-  padding: 20px;
-  text-decoration: none;
-  transform: rotate(0deg);
-}
-
-.button x {
-  transform: rotate(0deg);
-}
-
 .fa-github {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 100%;
   padding: 3px;
+  font-size: 2em;
 }
 .fa-twitter {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 100%;
   padding: 3px;
 }
 .fa-linkedin {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 100%;
   padding: 3px;
 }
 .fa-instagram {
   color: black;
   background-color: white;
   opacity: .7;
-  border-radius: 100%;
   padding: 3px;
 }
 
 .fa-github:hover {
-  background-color: #00CCFF;
+  background-color: black;
   color: white;
 }
 .fa-twitter:hover {
-  background-color: #00CCFF;
+  background-color: black;
   color: white;
 }
 .fa-linkedin:hover {
-  background-color: #00CCFF;
+  background-color: black;
   color: white;
 }
 .fa-instagram:hover {
-  background-color: #00CCFF;
+  background-color: black;
   color: white;
+}
+
+.home-header h2 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 75px;
+}
+.home-header h2 a {
+  color: black;
+}
+
+.main-menu {
+  text-align: center;
 }
 
 .row {
   text-align: center;
 }
 
-.social nav {
-  margin-left: -1%;
-}
-.social {
-  position: fixed;
-  top: 40%;
-}
-.social ul {
-  padding: 0px;
-  -webkit-transform: translate(-270px, 0);
-  -moz-transform: translate(-270px, 0);
-  -ms-transform: translate(-270px, 0);
-  -o-transform: translate(-270px, 0);
-  transform: translate(-270px, 0);
-}
-.social ul li {
-  display: block;
-  margin: 10px;
-  background: rgba(0, 0, 0, 0.36);
-  width: 350px;
-  text-align: right;
-  padding: 10px;
-  -webkit-border-radius: 0 30px 30px 0;
-  -moz-border-radius: 0 30px 30px 0;
-  border-radius: 0 30px 30px 0;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-}
-.social ul li:hover {
-  -webkit-transform: translate(110px, 0);
-  -moz-transform: translate(110px, 0);
-  -ms-transform: translate(110px, 0);
-  -o-transform: translate(110px, 0);
-  transform: translate(110px, 0);
-  background: rgba(255, 255, 255, 0.4);
-}
-.social ul li:hover a {
-  color: #000;
-}
-.social ul li:hover i {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.36);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
-}
-.social ul li i {
-  margin-left: 10px;
-  color: #000;
-  background: #fff;
-  padding: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  background: #ffffff;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-.social ol {
-  position: block;
+.social-icons {
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 #caption {
   font-family: 'Shadows Into Light', cursive;
+}
+
+
+#foot {
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
 }
