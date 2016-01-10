@@ -1,7 +1,8 @@
 {
   "name": "addisonfunk.github.io",
-  "version": "0.0.0",
+  "version": "3.3.2",
   "private": true,
+  "main": "masonry.js",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -13,5 +14,8 @@
     "express": "~4.13.1",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
+    "get-size": "~1.2.2",
+    "outlayer": "~1.4.0",
+    "fizzy-ui-utils": "^1.0.1"
   }
 }

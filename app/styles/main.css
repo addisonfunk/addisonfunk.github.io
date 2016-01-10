@@ -91,7 +91,7 @@ p {
   font-size: 1.2em;
 }
 
-.col-lg-6 h2 {
+.col-lg-5 h2, .col-lg-6 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 80px;
   margin-bottom: 15px;
@@ -183,6 +183,14 @@ p {
   color: white;
 }
 
+.grid-item {
+  width: 200px;
+}
+
+.grid-item--width2 {
+  width: 400px;
+}
+
 .home-header h2 {
   text-align: center;
   text-decoration: none;
@@ -205,6 +213,10 @@ p {
 .social-icons {
   margin-left: 40%;
   margin-top: 5%;
+}
+
+.travel img {
+  border: black solid 3px;
 }
 
 #caption {
