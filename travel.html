@@ -11,9 +11,17 @@
   <link rel="stylesheet" href="/flexbox/css/flexboxgrid.min.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="/path/to/unslider/dist/css/unslider.css">
+  <link rel="stylesheet" href="/path/to/unslider/dist/css/unslider-dots.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <link rel="stylesheet" href="app/styles/main.css">
+  <link rel="stylesheet" href="app/styles/main.css">
+
+
+
+
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <meta charset="utf-8">
@@ -48,7 +56,9 @@
     </h2>
   </div>
 </head>
-  
+
+<hr>
+
 <body>
 
 <div class="coming-soon" style=" color: black;
@@ -58,7 +68,7 @@
         <h3>coming soon...stay tuned!</h3>
     </div>
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <div class="travel row">
       <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4"
            >
@@ -86,8 +96,25 @@
                 style="width: 200px; height: 300px;">
       </div>
   </div>
+</div> -->
+
+<div class="my-slider">
+  <ul>
+    <li><img src="app/images/travel/travel_00.png"></li>
+    <li><img src="app/images/travel/travel_00.png"></li>
+    <li><img src="app/images/travel/travel_00.png"></li>
+  </ul>
 </div>
 
+<script>
+    jQuery(document).ready(function($) {
+      $('.my-slider').unslider();
+    });
+  </script>
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="/unslider/dist/js/unslider-min.js"></script>
 </body>
 
 

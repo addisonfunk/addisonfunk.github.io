@@ -5,9 +5,9 @@
 body {
   width: 100% auto;
 /*  height: 1700px;*/
-  /*background-image: url("http://i.imgur.com/PIFun9n.jpg");*/
+  background-image: url("../images/travel/deck.jpg");
   background-size: 100% auto contain;
-  background-color:rgba(0, 0, 0, 0);
+  /*background-color:rgba(0, 0, 0, 0);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -159,46 +159,46 @@ p {
   font-size: 1.8em;
 }
 .fa-github {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: none;
   opacity: .7;
   padding: 3px;
   font-size: 2em;
 }
 .fa-twitter {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: none;
   opacity: .7;
   padding: 3px;
 }
 .fa-linkedin {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: none;
   opacity: .7;
   padding: 3px;
 }
 .fa-instagram {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: none;
   opacity: .7;
   padding: 3px;
 }
 
 .fa-github:hover {
-  background-color: black;
-  color: white;
+  background-color: none;
+  opacity: 1;
 }
 .fa-twitter:hover {
-  background-color: black;
-  color: white;
+  background-color: none;
+  opacity: 1;
 }
 .fa-linkedin:hover {
-  background-color: black;
-  color: white;
+  background-color: none;
+  opacity: 1;
 }
 .fa-instagram:hover {
-  background-color: black;
-  color: white;
+  background-color: none;
+  opacity: 1;
 }
 
 .grid-item {
@@ -216,9 +216,7 @@ p {
   font-family: 'Amatic SC', cursive;
   margin-bottom: 75px;
 }
-.home-header h2 a {
-  color: black;
-}
+
 
 .main-menu {
   text-align: center;
@@ -251,3 +249,13 @@ p {
   height: 60px;
   background-color: #f5f5f5;
 }
+
+#homepage-header {
+  margin-top: 15%;
+  color: white;
+}
+
+#homepage-header h2 a {
+  color: white;
+}
+
