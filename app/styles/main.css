@@ -18,6 +18,51 @@ body.home {
   margin: 0 0 50px;
 }
 
+.about-one {
+  background-image: url("../images/travel/beach.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-size: cover; 
+  height: 250px;
+  width: 100%;
+}
+.about-one img {
+  margin: 0 auto;
+}
+.about-two {
+  background-image: url("../images/travel/sydney.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-size: cover; 
+  height: 250px;
+  width: 100%;
+}
+.about-three {
+  background-image: url("../images/travel/newzealand.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-size: cover; 
+  height: 250px;
+  width: 100%;
+}
+.about-four {
+  background-image: url("../images/travel/southafrica.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-size: cover; 
+  height: 250px;
+  width: 100%;
+}
+
+.about-text {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .page-wrap {
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -71,12 +116,12 @@ html {
   min-height: 100%;
 }
 
-p {
+/*p {
   text-align: center;
   width: 500px;
   margin: 0 auto;
   margin-top: 15px;
-}
+}*/
 
 .button:hover {
   // background-color: #B6F8F8;
@@ -116,23 +161,7 @@ p {
   font-size: 2em;
   margin-top: 10px;
 }
-.col-lg-12 #above-about {
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 80px;
-  margin-bottom: 10px;
-  font-size: 1.3em;
-  margin-top: 10px;
-}
-.col-lg-12 #bottom-about {
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 80px;
-  margin-top: 0px;
-  font-size: 1.3em;
-  text-align: center;
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 25px;
-}
+
 .col-lg-12 #pictures {
   font-family: 'Shadows Into Light', cursive;
   font-size: 1.4em;
@@ -151,6 +180,7 @@ p {
 .col-lg-12 img:hover {
   opacity: .4;
 }
+
 .col-lg-12 p {
   text-align: left;
 }
