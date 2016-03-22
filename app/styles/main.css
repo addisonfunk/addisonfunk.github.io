@@ -18,6 +18,36 @@ body.home {
   margin: 0 0 50px;
 }
 
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  font-family: 'Loved by the King', cursive; 
+  font-size: 8em;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.about-one:hover span.text-content {
+  opacity: 1;
+}
+.about-two:hover span.text-content {
+  opacity: 1;
+}
+.about-three:hover span.text-content {
+  opacity: 1;
+}
+.about-four:hover span.text-content {
+  opacity: 1;
+}
+
 .about-one {
   background-image: url("../images/travel/beach.jpg");
   background-attachment: fixed;
