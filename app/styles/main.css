@@ -251,11 +251,14 @@ p {
 }
 
 #homepage-header {
-  margin-top: 15%;
+  margin-top: 12%;
   color: white;
+  text-shadow: 1px 1px grey;
 }
 
 #homepage-header h2 a {
   color: white;
+  font-weight: 900;
+  /*text-shadow: .7px 1.5px #000000;*/
 }
 
