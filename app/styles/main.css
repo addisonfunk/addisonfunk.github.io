@@ -2,7 +2,7 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 /*// endbower*/
 
-body {
+body.home {
   width: 100% auto;
 /*  height: 1700px;*/
   background-image: url("../images/travel/deck.jpg");
