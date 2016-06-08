@@ -206,10 +206,10 @@ html {
   margin-left: 0px;
   border: white solid 2px;
 }
-.col-lg-12 img:hover {
+/*.col-lg-12 img:hover {
   opacity: .4;
 }
-
+*/
 .col-lg-12 p {
   text-align: left;
 }
