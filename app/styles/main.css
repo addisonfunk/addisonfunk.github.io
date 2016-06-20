@@ -2,19 +2,27 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 /*// endbower*/
 
-body.home {
+/*body.home {
   width: 100% auto;
 /*  height: 1700px;*/
-  background-size: 100% auto contain;
+/*  background-size: 100% auto contain;*/
   /*background-color:rgba(0, 0, 0, 0);*/
-  background-repeat: no-repeat;
+/*  background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  margin: 0 0 50px;
+  margin: 0 0 50px;*/
+/*}*/
+
+body {
+  background: url(../images/bed_and_laptop.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 span.text-content {
@@ -33,63 +41,6 @@ span.text-content {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-}
-.about-one:hover span.text-content {
-  opacity: 1;
-}
-.about-two:hover span.text-content {
-  opacity: 1;
-}
-.about-three:hover span.text-content {
-  opacity: 1;
-}
-.about-four:hover span.text-content {
-  opacity: 1;
-}
-
-.about-one {
-  background-image: url("../images/travel/beach.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-.about-one img {
-  margin: 0 auto;
-}
-.about-two {
-  background-image: url("../images/travel/sydney.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-.about-three {
-  background-image: url("../images/travel/newzealand.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-.about-four {
-  background-image: url("../images/travel/southafrica.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-}
-
-.about-text {
-  width: 500px;
-  margin: 0 auto;
 }
 
 .page-wrap {
@@ -131,29 +82,13 @@ h1 {
   font-family: 'Megrim', cursive;
   text-align: center;
   color: white;
-  font-size: 9em;
+  font-size: 15vw;
   margin-top: 0px;
   margin-bottom: 10px;
 }
 
-.col-lg-12 img {
-  text-align: center;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-/*p {
-  text-align: center;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 15px;
-}*/
-
 .button:hover {
-  // background-color: #B6F8F8;
+  background-color: #B6F8F8;
   color: #B6F8F8;
   font-size: 2em;
   font-family: 'Megrim', cursive;
@@ -163,53 +98,6 @@ html {
   transform: rotate(0deg);
 }
 
-.button:hover {
-  // background-color: #B6F8F8;
-  color: #B6F8F8;
-  font-size: 2em;
-  font-family: 'Megrim', cursive;
-  border-radius: 60%;
-  padding: 20px;
-  text-decoration: none;
-  transform: rotate(0deg);
-}
-
-.button x {
-  transform: rotate(0deg);
-}
-.col-lg-10 a {
-  margin: 40px;
-  border: none;
-  font-size: 1.2em;
-}
-
-.col-lg-5 h2, .col-lg-6 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 80px;
-  margin-bottom: 15px;
-  font-size: 2em;
-  margin-top: 10px;
-}
-
-.col-lg-12 #pictures {
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 1.4em;
-  margin-bottom: 0px;
-  color: #B6F8F8;
-}
-.col-lg-12 img {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  image-opacity: 1.0;
-  text-align: left;
-  margin-left: 0px;
-  border: white solid 2px;
-}
-/*.col-lg-12 img:hover {
-  opacity: .4;
-}
-*/
 .col-lg-12 p {
   text-align: left;
 }
@@ -260,18 +148,24 @@ html {
   opacity: 1;
 }
 
-.grid-item {
-  width: 200px;
+.footer .footer-row {
+  width: 100%;
+  background: #999;
 }
 
-.grid-item--width2 {
-  width: 400px;
+.footer-row {
+  text-shadow: 1px 1px grey;
+  position: fixed;
+  bottom: 0px;
+  height: auto;
+  align: center;
+  font-size: 2em;
 }
 
 .home-header h2 {
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 5.9vw;
   font-family: 'Amatic SC', cursive;
   margin-bottom: 75px;
 }
@@ -320,8 +214,24 @@ html {
   background-color: #f5f5f5;
 }
 
+#get-in-touch-button {
+  color: white;
+  background-color: black;
+  font-size: 2em;
+  border: white 2px solid;
+  margin-top: 2%;
+  margin-left: 44%;
+  border-radius: 3%; padding: 15px;
+  font-family:  'Amatic SC', cursive;
+}
+#get-in-touch-button:hover {
+  background-color: white;
+  color: black;
+}
+/*style="color: white; background-color: black; font-size: 2em; border: white 2px solid; margin-top: 2%; margin-left: 42%; border-radius: 3%; padding: 15px; font-family:  'Amatic SC', cursive;"*/
+
 #homepage-header {
-  margin-top: 12%;
+  margin-top: 3%;
   color: white;
   text-shadow: 1px 1px grey;
 }
@@ -329,6 +239,9 @@ html {
 #homepage-header h2 a {
   color: white;
   font-weight: 900;
-  /*text-shadow: .7px 1.5px #000000;*/
+}
+
+#nav-links-row {
+  background-color: white;
 }
 
