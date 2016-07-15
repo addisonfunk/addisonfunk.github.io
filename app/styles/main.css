@@ -182,16 +182,20 @@ h1 {
   display: inline-block;
   font-family: 'Amatic SC', cursive;
 }
-#nav-links-row {
-  font-size: 0;
-}
 
+.nav-links-row {
+  text-align: center;
+}
 
 .main-menu {
   text-align: center;
 }
 
-.row {
+.specialties {
+  text-align: center;
+}
+
+.specialties-row {
   text-align: center;
 }
 
@@ -252,6 +256,9 @@ h1 {
   background-color: white;
   color: black;
 }
+#get-in-touch-button > button > a #mail-to:hover {
+  color: black;
+}
 /*style="color: white; background-color: black; font-size: 2em; border: white 2px solid; margin-top: 2%; margin-left: 42%; border-radius: 3%; padding: 15px; font-family:  'Amatic SC', cursive;"*/
 
 #homepage-header {
@@ -267,5 +274,6 @@ h1 {
 
 #nav-links-row {
   background-color: white;
+  font-size: 0;
 }
 
