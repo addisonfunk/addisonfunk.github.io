@@ -1,0 +1,150 @@
+body {
+	background-color: white;
+}
+
+/*-------HEADER AND NAV*/
+
+ul .header-list-buttons {
+	width: 100%;
+}
+
+.header-list-buttons {
+	float: right;
+	list-style-type: none;
+}
+
+.header-list-buttons a {
+	color: black;
+}
+
+.header-list-buttons li {
+	display: inline;
+	padding: 1%;
+	float: right;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nav {
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: white;
+	border-radius: 0;
+}
+
+#header {
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	color: gray;
+	margin-top: 10%;
+	font-size: 6em;
+}
+
+#header2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+#header-container {
+	background: url(../images/white.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+}
+
+/*----------ABOUT SECTION*/
+.about-topic {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+  padding: 40px;
+}
+
+/*----------SKILLS SECTION*/
+
+
+
+/*----------PORTFOLIO SECTION*/
+.port {
+  padding: 0px;
+}
+.portfolio-image {
+  height: 300px;
+  width: 430px;
+  border: 2px solid black;
+  padding: 0px;
+}
+
+.updates {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  color: gray;
+  font-size: 2em;
+  margin: 6%;
+}
+
+
+/*----------CONTACT SECTION*/
+.contact-links {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	color: gray;
+}
+
+.contact-subject {
+  width: 25%;
+}
+.contact-email {
+  width: 25%;
+}
+
+.social-icon {
+  padding: 9px;
+  color: gray;
+  font-size: 2em;
+}
+
+.social-icons {
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+#contact-link li {
+	text-decoration: none;
+	vertical-align: left;
+}
+
+#contact-p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+
+
+/*----------FOOTER SECTION*/
+.footer {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: gray;
+	height: 150px;
+	color: white;
+}
+
+.col-lg-12 {
+	padding: 0px;
+}
+
+#footer-p {
+	padding-top: 7%;
+	text-align: center;
+}
+
+#name {
+	text-decoration: none;
+	color: white;
+}
+
