@@ -207,10 +207,7 @@ animation-play-state: running;
 	background-color: gray;
 	height: 150px;
 	color: white;
-}
-
-.col-lg-12 {
-	padding: 0px;
+  padding: 0px;
 }
 
 #footer-p {
@@ -220,7 +217,7 @@ animation-play-state: running;
 
 #name {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 
