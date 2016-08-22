@@ -7,6 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>addy funk</title>
 
+  <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
@@ -42,7 +44,7 @@
 	      <ul class="nav navbar-nav">
 				<ul id="header-buttons" class="header-list-buttons">
 					<li><a href="#" ng-click="show = 1">about</a></li>
-					<!-- <li><a href="#" ng-click="show = 2">skills</a></li> -->
+					<li><a href="#" ng-click="show = 2">skills</a></li>
 					<li><a href="#" ng-click="show = 3">portfolio</a></li>
 					<li><a href="#" ng-click="show = 4">contact</a></li>
 				</ul>
@@ -61,6 +63,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==1" class="portfolio-details col-lg-12" id="about">
+
 
 					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
 						<h1>developer</h1><br>
@@ -83,10 +86,187 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==2" class="portfolio-details col-lg-12" id="skills">
-						<p>	detail.skills = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus eget libero nec mollis. Vivamus consectetur nisi malesuada, vestibulum nisi a, aliquet est."</p>
-					</div>
+
+            <div id="fe" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="circle-1 fe">
+                <p ng-click="showFE = !showFE" class="trigger">front<br> end</p>
+              </div>
+            </div>
+
+            <div id="be" class="be col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="circle-1 be">
+                <p ng-click="showBE = !showBE">back<br> end</p>
+              </div>
+            </div>
+
+            <div id="pm" class="pm col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="circle-1 pm">
+                <p ng-click="showPM = !showPM">project <br> management</p>
+              </div>
+            </div>
+
+<!-- -----------FRONT END SKILLS LIST -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="test" ng-show="showFE">
+                  <div class="row center-lg" id="front-end-list">
+
+                  <div class="row around-xs">
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>HTML5</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                               <div>CSS3</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                               <div>SASS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>JAVASCRIPT</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>JQUERY</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>ANGULAR JS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>BOOTSTRAP</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>KENDO UI</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>FLEXBOX GRID</div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+<!-- -----------BACK END SKILLS LIST -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="test" ng-show="showBE">
+                  <div class="row center-lg" id="front-end-list">
+
+                  <div class="row around-xs">
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>C#</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                               <div>MVC FRAMEWORK</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>MONGO DB</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>EXPRESS JS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>NODE JS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>RUBY</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>RAILS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>APIS</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>SQL</div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+<!-- -----------PROJECT MANAGEMENT SKILLS LIST -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="test" ng-show="showPM">
+                  <div class="row center-lg" id="front-end-list">
+
+                  <div class="row around-xs">
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>MICROSOFT VISUAL STUDIO</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                               <div>AGILE METHODOLOGIES</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>TRELLO</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>PIVOTAL TRACKER</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>GIT</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>GITHUB</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>SLACK</div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
 				</div>
 			</div>
+
 
 <!--  PORTFOLIO SECTION -->
 			<div class="container-fluid">
@@ -128,22 +308,21 @@
             <div class="contact-links col-lg-12">
               <div class=" container-fluid">
                 <div class="row" style="text-align: center;">
-                      <div class="social-icons col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <a class="social-icon" href="https://github.com/addisonfunk/"><x class="fa fa-github"></x></a>
-                            <a class="social-icon" href="https://twitter.com/AddyFunk"><x class="fa fa-twitter"></x></a>
-                            <a class="social-icon" href="https://www.linkedin.com/in/addyfunk"><x class="fa fa-linkedin"></x></a>
-                            <a class="social-icon" href="https://instagram.com/addyfunk/"><x class="fa fa-instagram"></x></a>
-                      </div>
+                  <div class="social-icons col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <a class="social-icon" href="https://github.com/addisonfunk/"><x class="fa fa-github"></x></a>
+                        <a class="social-icon" href="https://twitter.com/AddyFunk"><x class="fa fa-twitter"></x></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/addyfunk"><x class="fa fa-linkedin"></x></a>
+                        <a class="social-icon" href="https://instagram.com/addyfunk/"><x class="fa fa-instagram"></x></a>
+                  </div>
               </div>
             </div>
-
-            </div>
+          </div>
 
 						<br>
 
-					</div>
 				</div>
 			</div>
+		</div>
 
 </div>
 </section>
@@ -152,7 +331,7 @@
 	<div class="row">
 		<div class="footer col-lg-12">
 			<p id="footer-p">website designed by
-				<a href="" id="name">addison funk</a> using: <br> html5, angularjs, css, javascript, bootstrap
+				<a href="https://www.github.com/addisonfunk" id="name" style="color: black">addison funk</a> using: <br> html5, angularjs, css3, flexbox grid, javascript, bootstrap
 			</p>
 		</div>
 	</div>
