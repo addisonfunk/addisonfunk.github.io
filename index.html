@@ -8,6 +8,7 @@
 	<title>addy funk</title>
 
   <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+   <link rel="stylesheet" href="font-awesome/font-awesome.min.css" type="text/css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
@@ -88,20 +89,27 @@
 					<div ng-show="show==2" class="portfolio-details col-lg-12" id="skills">
 
             <div id="fe" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div class="circle-1 fe">
-                <p ng-click="showFE = !showFE" class="trigger">front<br> end</p>
+              <div class="circle-1 fe" id="fe-circle">
+                <p ng-click="showFE = !showFE" class="trigger">front<br> end
+                <br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+
+                </p>
               </div>
             </div>
 
             <div id="be" class="be col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div class="circle-1 be">
-                <p ng-click="showBE = !showBE">back<br> end</p>
+                <p ng-click="showBE = !showBE">back<br> end
+                <br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </p>
               </div>
             </div>
 
             <div id="pm" class="pm col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div class="circle-1 pm">
-                <p ng-click="showPM = !showPM">project <br> management</p>
+                <p ng-click="showPM = !showPM">project <br> management
+                <br><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </p>
               </div>
             </div>
 

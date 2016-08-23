@@ -77,14 +77,15 @@ ul .header-list-buttons {
   border-radius: 50%;
   height: 300px;
   width: 300px;
-  background-color: #e6e6e6;
+  background-color: white;
   color: white;
+  border: 2px solid white;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 8%;
   animation: circle 3s linear infinite;
   animation-play-state: paused;
   font-size: 4.3em;
-  padding-top:18%;
+  padding-top:16%;
   font-family: 'Sacramento', cursive;
 }
 
@@ -98,10 +99,13 @@ ul .header-list-buttons {
 
 @keyframes circle {
     /*100% {transform: rotate(1turn); }*/
-    0%   {background-color: #e6e6e6;}
-    25%  {background-color: #a6a6a6;}
-    50%  {background-color: #bfbfbf;}
-    100% {background-color: #e6e6e6;}
+    0%   {background-color: #ffe6e6;}
+    15%  {background-color: #ffe6e6;}
+    25%  {background-color: #f2f2f2; color: white;}
+    40%  {background-color: #f2f2f2; color: white;}
+    60%  {background-color: #ffe6e6;}
+    75%  {background-color: #ffe6e6;}
+    100% {background-color: #ffe6e6;}
 }
 .circle-1:hover {
 animation-play-state: running;
@@ -132,7 +136,7 @@ animation-play-state: running;
   color: #8c8c8c;
 }
 #fe-item:hover {
-  background-color: #8c8c8c;
+  background-color: #e6e6e6;
   color: white;
 }
 
