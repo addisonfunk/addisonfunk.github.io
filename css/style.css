@@ -54,12 +54,12 @@ ul .header-list-buttons {
 }
 
 #header-container {
-	background: url(../images/desk.png) no-repeat center center fixed;
+	background: url(../images/jordy.JPG) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 600px;
+	height: 400px;
 }
 
 /*----------ABOUT SECTION*/
@@ -99,13 +99,13 @@ ul .header-list-buttons {
 
 @keyframes circle {
     /*100% {transform: rotate(1turn); }*/
-    0%   {background-color: #ffe6e6;}
-    15%  {background-color: #ffe6e6;}
+    0%   {background-color: #d9d9d9;}
+    15%  {background-color: #e6e6e6;}
     25%  {background-color: #f2f2f2; color: white;}
     40%  {background-color: #f2f2f2; color: white;}
-    60%  {background-color: #ffe6e6;}
-    75%  {background-color: #ffe6e6;}
-    100% {background-color: #ffe6e6;}
+    60%  {background-color: #e6e6e6;}
+    75%  {background-color: #e6e6e6;}
+    100% {background-color: #d9d9d9;}
 }
 .circle-1:hover {
 animation-play-state: running;
@@ -136,7 +136,7 @@ animation-play-state: running;
   color: #8c8c8c;
 }
 #fe-item:hover {
-  background-color: #e6e6e6;
+  background-color: #e6f7ff;
   color: white;
 }
 
