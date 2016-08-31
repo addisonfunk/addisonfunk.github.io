@@ -19,23 +19,38 @@ ul .header-list-buttons {
 	list-style-type: none;
 }
 
-.header-list-buttons a {
-	color: black;
-}
-
 .header-list-buttons li {
 	display: inline;
 	padding: 1%;
-	float: right;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+
 
 .nav {
 	width: 100%;
 }
 
+#nav-list {
+  background-color: black;
+  padding: 1.7%;
+  width: 100%;
+}
+
+#header-buttons {
+  text-align: center;
+}
+
+#header-buttons li {
+  margin: 3%;
+}
+
+#header-buttons li a {
+  color: white;
+  letter-spacing: 2px;
+}
+
 .navbar-default {
-	background-color: white;
+	background-color: black;
 	border-radius: 0;
 }
 
@@ -54,7 +69,8 @@ ul .header-list-buttons {
 }
 
 #header-container {
-	background: url(../images/jordy.JPG) no-repeat center center fixed;
+	background: url(../images/bed_and_laptop.png) no-repeat center center fixed;
+  width: 90%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -66,8 +82,22 @@ ul .header-list-buttons {
 .about-topic {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
-	color: gray;
   padding: 40px;
+}
+
+#about-h1 {
+  border: solid 2px white;
+  padding: 5%;
+  background-color: #fff1f0;
+  color: #ffffff;
+  text-shadow: 2px 2px #e6e6e6;
+}
+
+#about-h1 p {
+  border: solid 2px white;
+  padding: 10%;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 1.7em;
 }
 
 /*----------SKILLS SECTION*/
