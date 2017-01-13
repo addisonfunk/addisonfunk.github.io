@@ -69,7 +69,7 @@ ul .header-list-buttons {
 }
 
 #header-container {
-	background: url(../images/bed_and_laptop.png) no-repeat center center fixed;
+	background: url(../images/telluride.png) no-repeat center center fixed;
   width: 90%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -88,7 +88,7 @@ ul .header-list-buttons {
 #about-h1 {
   border: solid 2px white;
   padding: 5%;
-  background-color: #fff1f0;
+  background-color: #d9e6f2;
   color: #ffffff;
   text-shadow: 2px 2px #e6e6e6;
 }
@@ -166,12 +166,28 @@ animation-play-state: running;
   color: #8c8c8c;
 }
 #fe-item:hover {
-  background-color: #e6f7ff;
+  background-color: #d9d9d9;
   color: white;
 }
 
 #front-end-list {
   padding-bottom: 5%;
+}
+
+#tech-skills {
+  text-align: center;
+  height: 40%;
+  background-color: #d9e6f2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 1%;
+  font-size: 3em;
+  color: white;
+  margin-bottom: 4%;
+  text-shadow: 2px 2px #e6e6e6;
+}
+
+#tech-skills p {
+   border: solid 2px white;
 }
 
 
@@ -236,16 +252,31 @@ animation-play-state: running;
 
 
 /*----------FOOTER SECTION*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -150px;
+}
+
+.footer,
+.push {
+  height: 150px;
+}
+
 .footer {
 	font-family: 'Open Sans Condensed', sans-serif;
 	background-color: gray;
-	height: 150px;
+	/*height: 150px;*/
 	color: white;
   padding: 0px;
 }
 
 #footer-p {
-	padding-top: 7%;
+	padding-top: 3%;
 	text-align: center;
 }
 

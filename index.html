@@ -27,6 +27,7 @@
 
 
 <body>
+<div class="wrapper">
 <section ng-controller="profileController">
 	<!-- <div ng-repeat="detail in details" style="float: right"> -->
 	<nav class="navbar navbar-default">
@@ -75,11 +76,11 @@
 <hr>
 					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
 						<h1 id="about-h1"><p>developer</p></h1><br>
-						<p>I am currently a software engineer at a startup in Atlanta, GA specializing in HTML5, CSS3, JQuery, JavaScript, C# and SQL on a .NET MVC framework, and I have deployed applications using Ruby, Rails and the MEANstack. <br><br> I love opportunities to constantly learn new technologies and expand my knowledge for JavaScript frameworks. After another project using the MEANstack, I hope to get into React and Ember, but feel free to reach out if there is another you recommend!</p>
+						<p>I am currently a web application developer in Denver, CO specializing in HTML5, CSS3, JQuery, JavaScript, C# and SQL on a .NET MVC framework, and I have deployed applications using Ruby, Rails and the MEANstack. <br><br> I love opportunities to constantly learn new technologies and expand my knowledge for JavaScript frameworks.</p>
 					</div>
 					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
             <h1 id="about-h1"><p>hobbies</p></h1><br>
-						<p>When I'm not on my Mac hacking away, I am always outdoors - hiking, running or trying to wear out my golden retriever, Jordy. I love being active (just ask Jordy!). My next fitness goal is to compete in a triathlon and a Tough Mudder.</p>
+						<p>When I'm not on my Mac hacking away, I am always outdoors - hiking, running, skiing or trying to wear out my golden retriever, Jordy. I love being active (just ask Jordy!). My next fitness goal is to compete in a triathlon and a Tough Mudder.</p>
 					</div>
 					<div class="about-topic col-lg-4 col-md-4 col-sm-12">
 						<h1 id="about-h1"><p>interests</p></h1><br>
@@ -105,6 +106,14 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div ng-show="show==2" class="portfolio-details col-lg-12" id="skills">
+
+        <div class="container">
+          <div class="row" id="tech-skills">
+            <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12">
+            <p>TECHNICAL SKILLS</p>
+            </div>
+          </div>
+        </div>
 
             <div id="fe" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div class="circle-1 fe" id="fe-circle">
@@ -133,7 +142,7 @@
 
 <!-- -----------FRONT END SKILLS LIST -->
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="test" ng-show="showFE">
+                <div class="frontEnd" ng-show="showFE">
                   <div class="row center-lg" id="front-end-list">
 
                   <div class="row around-xs">
@@ -190,7 +199,7 @@
 
 <!-- -----------BACK END SKILLS LIST -->
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="test" ng-show="showBE">
+                <div class="backEnd" ng-show="showBE">
                   <div class="row center-lg" id="front-end-list">
 
                   <div class="row around-xs">
@@ -246,7 +255,7 @@
 
 <!-- -----------PROJECT MANAGEMENT SKILLS LIST -->
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="test" ng-show="showPM">
+                <div class="projMan" ng-show="showPM">
                   <div class="row center-lg" id="front-end-list">
 
                   <div class="row around-xs">
@@ -285,6 +294,11 @@
                               <div>SLACK</div>
                           </div>
                       </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>JIRA</div>
+                          </div>
+                      </div>
                   </div>
                 </div>
             </div>
@@ -292,6 +306,44 @@
 
 				</div>
 			</div>
+<!--
+      <div class="container-fluid">
+          <div class="row" id="tech-skills">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            BRANDING SKILLS
+            </div>
+          </div>
+      </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="branding">
+                  <div class="row center-lg" id="front-end-list">
+
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                  </div>
+
+                  <div class="row around-xs">
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>ADOBE ILLUSTRATOR</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                               <div>MARKETING BACKGROUND</div>
+                          </div>
+                      </div>
+                      <div class="col-xs-3" id="fe-item">
+                          <div class="box">
+                              <div>UP TO DATE WITH TECHNOLOGIES</div>
+                          </div>
+                      </div>
+
+                  </div>
+                </div>
+            </div>
+          </div> -->
 
 
 <!--  PORTFOLIO SECTION -->
@@ -354,6 +406,8 @@
 </div>
 </section>
 
+<div class="push"></div>
+
 <div class="container-fluid">
 	<div class="row bottom-lg">
 		<div class="footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -367,6 +421,7 @@
 	</div>
 </div>
 
+</div>
 </body>
 </html>
 

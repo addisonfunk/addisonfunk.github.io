@@ -9,22 +9,9 @@ angular.module('addyFunkApp', [])
         document.getElementsByClassName('pm')[0].style.visibility = 'hidden';
       };
 
-      $scope.fe_list = function () {
-      }
+      var frontEnd = document.getElementsByClassName("frontEnd");
+      var backEnd = document.getElementsByClassName("backEnd");
 
-      function startScrolling(e) {
-        console.log(e);
-          var top = 400;
-          var duration = 2000;
-
-          $scope.scrollTop(top, duration).then(function() {
-            console && console.log('You just scrolled to the top!');
-          });
-
-          var offset = 30;
-          var someElement = angular.element(document.getElementById("second_block"));
-          $scope.scrollToElement(someElement, offset, duration);
-      };
 	});
 
 
