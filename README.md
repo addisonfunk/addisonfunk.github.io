@@ -1,3 +1,3 @@
-# addisonfunk.github.io
+# addisonevans.github.io
 
-A personal website: https://addisonfunk.github.io/
+A personal website: https://addisonevans.github.io/
