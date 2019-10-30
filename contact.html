@@ -49,36 +49,54 @@
 					<!-- One -->
 						<section class="wrapper style4 special container medium">
 
+
 							<!-- Content -->
 								<div class="content">
-									<form>
-										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-												</ul>
-											</div>
-										</div>
+									<!-- Starting of ajax contact form -->
+									<form class="contact__form" method="post" action="assets/php/contact.php">
+									    <!-- Starting of successful form message -->
+									    <div class="row">
+									        <div class="col-12">
+									            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+									                Your message was sent successfully.
+									            </div>
+									        </div>
+									    </div>
+									    <!-- Ending of successful form message -->
+
+									    <!-- Element of the ajax contact form -->
+									    <div class="row gtr-50">
+									        <div class="col-6 col-12-mobile form-group">
+									            <input name="name" type="text" class="form-control" placeholder="Name" required>
+									        </div>
+									        <div class="col-6 col-12-mobile form-group">
+									            <input name="email" type="email" class="form-control" placeholder="Email" required>
+									        </div>
+									        <div class="col-12 form-group">
+									            <input name="phone" type="text" class="form-control" placeholder="Phone">
+									        </div>
+									        <div class="col-12 form-group">
+									            <input name="subject" type="text" class="form-control" placeholder="Subject" required>
+									        </div>
+									        <div class="col-12 form-group">
+									            <textarea name="message" class="form-control" rows="7" placeholder="Message" required></textarea>
+									        </div>
+									        <div class="col-12">
+									        	<ul class="buttons">
+									        		<li><input name="submit" id="submit-email" type="submit" class="special" value="Send Message"></li>
+									        	</ul>
+									            
+									        </div>
+									    </div>
 									</form>
+									<!-- Ending of ajax contact form -->
 								</div>
 
 						</section>
 
 				</article>
 
-<!-- Footer -->
+			<!-- Footer -->
 				<footer id="footer">
 
 					<ul class="icons">
@@ -98,12 +116,14 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<!--<script src="assets/js/jquery.scrollgress.min.js"></script>-->
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
 
 	</body>
 </html>
