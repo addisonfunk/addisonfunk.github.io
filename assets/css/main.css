@@ -1943,6 +1943,15 @@ input, select, textarea {
 					background: #7fb7d2;
 				}
 
+			.icon.circle.fa-medium {
+				background: #da83ae;
+				color: #fff;
+			}
+
+				.icon.circle.fa-medium:hover {
+					background: #df93b8;
+				}
+
 			.icon.circle.fa-facebook-f {
 				background: #7490c3;
 				color: #fff;
